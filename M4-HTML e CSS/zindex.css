@@ -1,0 +1,9 @@
+.amarelo {
+    position: relative;
+    top: 20px;
+}
+
+.vermelho {
+    position: relative;
+    z-index:10;
+}

@@ -1,0 +1,42 @@
+<!-- Exercício: Manipulando Classes
+Temos um desafio!
+
+Encontramos uma lista desordenada na página oficial do Bootstrap e queremos mudar algumas estilizações 
+porque não gostamos muito do resultado.
+Deixamos um passo a passo do que você precisa fazer para resolver este exercício:
+Clicar no botão 'Executar resposta' sem fazer mudança alguma no código, assim você vai poder ver o resultado
+no navegador abaixo.
+Inspecionar o código desse navegador (o nativo do playground)
+
+Encontrar a classe que está alterando a cor de fundo do primeiro <li> com o texto "4 caixas de hambúrguer"
+
+
+Uma vez encontrada, deverá sobrescrever para que:
+
+a cor de fundo seja lightseagreen
+a cor da borda seja lightskyblue
+declarar um border-width de 2px
+
+
+Aventure-se a inspecionar o código! E se você não encontrar a classe solicitada, clique na dica.
+
+A classe que você deve sobrescrever se chama .list-group-item.active -->
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Bootstrap</title>
+  </head>
+  <body>
+   <div class="container">
+        <h2>Lista para Noite do Hambúrguer</h2>
+        <ul class="list-group">
+            <li class="list-group-item active">4 caixas de hambúrger</li>
+            <li class="list-group-item">12 sacos de pão</li>
+            <li class="list-group-item">2 ketchup</li>
+            <li class="list-group-item">2 mostarda</li>
+            <li class="list-group-item">1 maionese</li>
+        </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!-- Exercício: Mais Campos de Texto
+Criando um formulário de registro!
+
+Queremos que adicione três campos para que o usuário possa inserir um nome, um e-mail e uma senha. 
+Para isso, te deixamos uma lista com as tags que deverá usar:
+
+A tag <input> para que o usuário insira seu nome
+A tag <input> para que o usuário insira seu e-mail
+A tag <input> para que o usuário insira sua senha
+A tag <label> para cada um dos <input>
+Os três <input> devem conter o atributo name declarado, com os valores "nome", "email" e "senha" para que
+a informação efetivamente viaje ao enviar o formulário.
+
+Atenção:  no index.html já te deixamos as tags de parágrafo para que escreva nelas cada um dos campos e 
+assim visualizar o formulário mais prolixo no navegador.
+
+Pode utilizar o atributo required em casa input para que o mesmo seja obrigatório.
+ -->
+
+ <html>
+  <head>
+    <title>Formulario de registro</title>
+  </head>
+  <body>
+    <form action="resultado.html" method="POST">
+      <p>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome"
+      </p>
+
+      <p>
+         <label for="email">Email</label>
+        <input type="email" id="email" name="email"
+      </p>
+      
+      <p>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha"
+      </p>
+    </form>
+  </body>
+</html>

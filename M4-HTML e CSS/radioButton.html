@@ -1,0 +1,32 @@
+<!-- Exercício: Tem Pet?
+Vamos criar um formulário para perguntar se o usuário possui ou não um bicho de estimação.
+
+Para tanto, dentro do formulário que foi fornecido:
+
+crie um  <label> com o texto "Você tem um pet?"
+adicione dois radio-button para dar a opção "Sim" e a opção "Não"
+configure o atributo name="pet" nos dois <input> para que entenda que estamos falando do mesmo campo.
+Para poder verificar logo qual foi a opção escolhida pelo usuário não se esqueça de  adicionar o atributo
+value em cada <input>. Para a opção "Sim" o valor deverá ser la letra s, e para a opção "Não" a letra n.
+
+Lembre-se de que para o radio-button funcionar de maneira apropriada as duas tags input tem de ter o atributo
+name com o mesmo valor; name="pet"; Também é necessário adicionar um atributo value, DIFERENTE, para cada opção
+do radio-button para checar qual foi a resposta do usuário de forma mais eficiente.
+ -->
+
+ <html>
+  <head>
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="resultado.html" method="POST">
+       <label>"Você tem um pet?"</label>
+       <br>
+       <input type="radio" id="sim" name="pet" value="s" value="DIFERENTE"><label for="sim">Sim</label>
+       <br>
+       <input type="radio" id="não" name="pet" value="n"value="DIFERENTE"><label for="não">Não</label>
+       <br>
+        <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.div-acima {
+    color:  lightseagreen;
+    display: inline;
+}
+
+.span-grande {
+    color:lightskyblue;
+}
+
+.span-pequeno {
+    color: lightcoral;
+    display: block;
+}
+
+.div-abaixo {
+    color: lightslategray;
+    display: none;
+}

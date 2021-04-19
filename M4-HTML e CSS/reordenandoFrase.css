@@ -1,0 +1,8 @@
+.frase {
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse
+  }
+  
+  

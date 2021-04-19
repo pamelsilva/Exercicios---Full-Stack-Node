@@ -1,0 +1,31 @@
+<!-- Exercício: estilizando elementos de forma horizontal
+Viva ao futebol!
+
+Nos pedem para fazer um protótipo de site para a CBF. Até agora, temos uma barra de navegação e um logo
+no index.html, mas sem muito design, e queremos estiliza-la para que todos os elementos estejam em uma 
+mesma linha horizontal.
+O site até o momento, se encontra assim:
+
+Para isso pedimos que converta a <div> com classe "ligacoes" e a <div> com classe "nav-bar" em contêiners flex.
+Mas, queremos que, tanto a <img> como a <ul> estejam distribuídas de maneira uniforme no comprimento da linha.
+Lembra da propriedade justify-content? Com ela podemos distribuir os elementos flex ao redor do eixo 
+principal. Qual valor podemos usar para chegar nesse objetivo.
+ -->
+    <html>
+  <head>
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <img src="https://i.imgur.com/DCo22tQ.png">
+
+      <ul class="ligacoes">
+          <li><a href="">Equipes |</a></li>
+          <li><a href="">Fichas |</a></li>
+          <li><a href="">Árbitros |</a></li>
+          <li><a href="">Diretores Técnicos |</a></li>
+          <li><a href="">Calendário |</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

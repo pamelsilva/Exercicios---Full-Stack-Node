@@ -1,0 +1,28 @@
+<!-- Exercício: Campo de Texto
+Vamos começar a dar corpo ao nosso formulário.
+
+Queremos um campo dentro do formulário para que o usuário possa inserir seu nome. 
+Para conseguirmos isso é necessário inserir duas tags dentro do formulário:
+
+A tag <label>, para informar ao usuário que deve inserir seu nome. A mesma deverá ter o atributo 
+for com o valor nome
+A tag <input> com atributo type com o valor text (para que o usuário possa inserir seu nome)
+e o atributo id com o valor nome. Por último, declare o atributo name com o valor nome já que
+se este atributo não existir, não se enviará o campo como resultado.
+Lembre-se que se estiverem bem configurados os atributos for da tag <label> e o atributo id da 
+tag <input>, ao clicar na <label> o cursor para escrever se posicionará automaticamente no 
+<input> relacionado. -->
+
+<html>
+    <head>
+      <title>Campos no formulario</title>
+    </head>
+    <body>
+      <form action="resultado.html" method="POST">
+     
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome">
+               
+      </form>
+    </body>
+  </html>

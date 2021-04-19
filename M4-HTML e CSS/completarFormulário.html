@@ -1,0 +1,38 @@
+<!-- Exercício: Completar Formulário
+Para este exercício te damos um formulário já definido que está quase completo. Queremos que adicione 
+algo fundamental que está faltando: um botão que diga "ENVIAR" para que o usuário possa, de fato, enviar 
+seus dados.
+
+Já te deixamos pronta a tag de paragrafo para que escreva nela o campo para o botão e assim visualizar o
+formulário completo no navegador.
+
+Cria uma tag input com atributo e valor type="submit". Falando nisso, você se lembra para que serve o 
+atributo value? -->
+
+<html>
+  <head>
+    <title>Formulario de registro</title>
+  </head>
+  <body>
+    <form action="resultado.html" method="POST">
+      <p>
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+      </p>
+
+      <p>
+        <label>E-mail:</label>
+        <input type="email" name="email" required>
+      </p>
+
+      <p>
+        <label>Senha:</label>
+        <input type="password" name="senha" required>
+      </p>
+
+      <p>
+      <input type="submit" value="enviar">
+      </p>
+    </form>
+  </body>
+</html

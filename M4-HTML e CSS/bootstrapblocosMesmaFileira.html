@@ -1,0 +1,40 @@
+<!-- Exercício: Agora quero vários blocos na mesma fileira
+Vamos praticar como adicionar 3 blocos dentro de uma linha (row):
+
+Para começar, precisaremos criar uma <div> e atribuir à ela a classe Bootstrap que permite a criação de uma 
+linha.
+
+Os próximos passos precisam ser criados na seguinte ordem:
+
+Criar uma <div> que ocupe 4 colunas e possua o texto "4 colunas" 
+Criar uma <div> que ocupe 5 colunas e possua o texto "5 colunas 
+Criar uma <div> que ocupe 3 colunas e possua o texto "3 colunas" 
+OBS: além do seu código nós estilizamos o css para quando o código for executado as colunas e blocos estejam 
+mais legíveis.
+
+Lembre-se que para dizer à um elemento quantas colunas queremos que ele ocupe, usamos o prefixo 'col' seguido 
+pelo número de colunas desejado.
+
+ -->
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h2>Bem-vindo(a)!</h2>
+      <div>Aqui estamos implementando o sistema grid do Bootstrap</div>
+      
+       <div class="row">
+          <div class="col-12">Este é um bloco com 12 colunas</div>
+      </div>
+      <div class="row">
+      <div class="col-4">"4 colunas" </div>
+      <div class="col-5">"5 colunas" </div>
+      <div class="col-3">"3 colunas" </div> 
+ </div>  
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.surf-no-mar {
+    display: flex;
+    width: 100%;
+  }
+  
+  .prancha {
+  order: -1;
+  
+  }

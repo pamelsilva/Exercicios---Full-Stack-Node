@@ -1,0 +1,28 @@
+<!-- Exercício: escrever comentário
+Queremos saber a opinião de nossos usuários.
+
+Portanto adicione no formulário já declarada, a tag que permite ao usuário escrever um comentário.
+
+Ademais, crie duas tags <button> configurando o atributo type  para que o usuário possa ver um botão que
+diga "Enviar" e um botão que diga "Apagar", que ao clicar apague o que está escrito.
+
+Devera utilizar a tag <textarea>. Lembra-se que, além do "submit", pode atribuir um type="reset"
+ao <button> para resetar o formulário.
+ -->
+
+ <html>
+  <head>
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="resultado.html" method="POST">
+        <label>Deixe seu comentário</label>
+       <br>
+       <textarea name="comentário" id="comentário" cols="30" rows="10"></textarea>
+       <br>
+       <button type="reset">Limpar campos</button>
+       <button type="submit">Enviar</button>
+ 
+    </form>
+  </body>
+</html>

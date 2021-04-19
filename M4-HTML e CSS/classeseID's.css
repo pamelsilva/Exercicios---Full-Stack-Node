@@ -1,0 +1,21 @@
+.OFERTAS {
+    color: gold;
+}
+
+.Smartphones {
+    text-transform: uppercase;
+}
+
+.Notebooks{
+    text-transform: uppercase;
+}
+
+.Tablets {
+        text-transform: uppercase;
+}
+
+
+#whatsapp {
+    background-color: green;
+    color: white;
+}

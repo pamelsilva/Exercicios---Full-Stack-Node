@@ -1,0 +1,48 @@
+<!-- Exercício: Usando break-points
+Precisamos decidir como os elementos estarão dispostos na página de acordo com a viewport.
+Ajude-nos a melhorar a seguinte galeria de fotos usando break-points implementando bootstrap 
+(na estrutura temos 3 divs - cada qual possuindo background e texto). 
+
+Aqui temos uma imagem de como o site está até agora: 
+
+Atribua as classes booststrap necessárias de acordo com os requisitos para cada cada <div>:
+
+    A <div> do "cachorro" precisa ocupar: 4 colunas no break-point para telas médias e 6 colunas para 
+    tela grande;
+    A <div> do "hamster" ocupar: 4 colunas em uma tela média e 6 colunas em uma tela grande;
+    A <div> do "gato" ocupar: 4 colunas em uma tela média e 12 colunas em uma tela grande.
+    IMPORTANTE: Para cada <div> procure escrever primeiro a classe bootstrap referente a telas do tamanho
+     médio e depois grande (nesta ordem), separadas por um espaço.
+
+Lembre-se que para dizermos a um elemento quantas colunas queremos que ele ocupe, usamos o prefixo 'col' 
+seguido do número que representa esse número de colunas || Caso queira adicionar também o break-point, 
+ele é inserido entre a palavra "col" e o número de colunas.
+
+ -->
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/  bootstrap.min.css">
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Galeria de fotos</h2>
+      
+      <div class="row">
+
+        <div class="col-md-4 col-lg-6">
+            <p>cachorro</p>
+        </div>
+
+        <div class="col-md-4 col-lg-6">
+            <p>hamster</p>
+        </div>
+
+        <div class="col-md-4 col-lg-12">
+            <p>gato</p>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

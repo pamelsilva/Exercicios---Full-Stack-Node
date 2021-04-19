@@ -1,0 +1,51 @@
+<!-- Exercício: Terminando o protótipo
+Temos uma estrutura e precisamos de sua ajuda para completá-la!
+
+A primeiro coisa que você terá que fazer é criar uma <div> que seja uma linha de Bootstrap e dentro delas
+precisaremos de duas estruturas <div> que ocupem 6 colunas cada. Ambas div's precisam conter o texto "6 colunas".
+
+Embaixo de você deve criar uma nova <div> que precisa receber a classe linha (row) do Bootstrap e que também
+possua 2 <div> dentro. A primeira deve ocupar 10 colunas com o texto "10 colunas" e a segunda 2 colunas com o 
+texto "2 colunas". 
+
+
+OBS: além do seu código nós estilizamos o css para quando o código for executado as colunas e blocos estejam 
+mais legíveis.
+
+Lembre-se que para dizer à um elemento quantas colunas queremos que ele ocupe, usamos o prefixo 'col' seguido
+do número de colunas.
+ -->
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h2>Bem vindo(a)</h2>
+      <div>Implementando a grid do Bootstrap</div>
+
+      <div class="row">
+          <div class="col-12">Bloco de 12 colunas</div>
+      </div>
+
+      <div class="row">
+          <div class="col-4">4 colunas</div>
+          <div class="col-5">5 colunas</div>
+          <div class="col-3">3 colunas</div>
+      </div>
+
+<div class="row">
+          <div class="col-6">6 colunas</div>
+          <div class="col-6">6 colunas</div>
+        </div>
+
+<div class="row">
+          <div class="col-10">10 colunas</div>
+          <div class="col-2">2 colunas</div>
+       </div>
+    </div>
+  </body>
+</html>

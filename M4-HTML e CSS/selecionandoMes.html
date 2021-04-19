@@ -1,0 +1,37 @@
+<!-- Exercício: selecionando mês
+Vamos criar um pequeno formulário com um drop-down (menu suspenso) para que o usuário possa selecionar o mês 
+de seu aniversário.
+
+Para isso, precisaremos criar a tag <select> com o atributo e valor name="mes". Dentro do <select> 
+precisará criar 12 tags<option>, uma para cada mês, declarando em cada caso o texto a ser lido pelo usuário: 
+Janeiro, Fevereiro, Março, etc... 
+
+Não se esqueça, também, de escrever o atributo value em cada tag <option>.Mas atenção, a intenção é que,
+como valor, esse atributo receba o número que representa o mês no calendário. Exemplo: 1 se refere à Janeiro,
+2 se refere à Fevereiro, e assim por diante... -->
+
+<html>
+  <head>
+    <title>Formulários</title>
+  </head>
+  <body>
+    <form action="index.html" method="POST">
+        <label>Selecione o mês do seu aniversário</label>
+        <select name="mes" id="mes">
+        <option value="1">Janeiro</option>
+        <option value="2">Fevereiro</option>
+        <option value="3">Março</option>
+        <option value="4">Abril</option>
+        <option value="5">Maio</option>
+        <option value="6">Junho</option>
+        <option value="7">Julho</option>
+        <option value="8">Agosto</option>
+        <option value="9">Setembro</option>
+        <option value="10">Outubro</option>
+        <option value="11">Novembro</option>
+        <option value="12">Dezembro</option>
+      </select>
+        <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
