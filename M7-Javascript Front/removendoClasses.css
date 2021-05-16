@@ -1,0 +1,11 @@
+.container {
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    text-transform: uppercase;
+    color: lightslategrey;
+}

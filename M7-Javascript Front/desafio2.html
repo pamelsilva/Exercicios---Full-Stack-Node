@@ -1,0 +1,31 @@
+<!-- Exercício: Desafio parte 2 Vamos continuar construindo nosso jogo! 
+Em nosso arquivo script.js já atribuímos o evento "click" ao botaoMostrar. Agora, o quê queremos que 
+aconteça quando o usuário clicar nesse botão? Queremos que: ﻿ocultar o parágrafo com
+a classe titulo exibir o paragrafo com classe segundos, mostrando os segundos atuais 
+Não se preocupe ... temos uma lista de tarefas em mente com as etapas necessárias. 
+Dentro do callback do evento "click": Crie a variável atualizaSegundo e atribua um
+intervalo que se dispare a cada 0 segundos No callback do intervalo, crie a variável data e guarde a data atual.
+Não lembra como fazer? Veja a pista!
+Para o parágrafo que capturamos na variável segundos atribua os segundos 
+atuais. Se lembra como adicionar
+um conteúdo no HTML utilizando JS? Na variável titulo atribua display:none para ocultar o parágrafo. 
+Na variável segundos atribua display:block. Divirta-se! Para criar uma nova data, você deve utilizar new Date(). 
+Lembre-se de que este objeto possui muitos
+métodos, incluindo getSeconds() que retorna os segundos atuais. -->
+
+<html>
+
+<head>
+    <title>JS Front</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <p class="titulo">Quantos segundos?</p>
+    <p class="segundos"></p>
+
+    <button class="mostrar-segundos" type="button">Mostrar segundos</button>
+    <button class="ocultar-segundos" type="button">Ocultar segundos</button>
+</body>
+
+</html>
